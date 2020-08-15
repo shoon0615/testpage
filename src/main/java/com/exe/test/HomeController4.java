@@ -9,7 +9,7 @@ public class HomeController4 {
 	
 	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public String test() {
-		
+		System.out.println("ABC");
 		return "test2";
 		
 	}	
