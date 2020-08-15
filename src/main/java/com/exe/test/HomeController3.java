@@ -9,7 +9,7 @@ public class HomeController3 {
 	
 	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public String maining() {
-		
+		System.out.println("test");
 		return "main";
 	}
 	
