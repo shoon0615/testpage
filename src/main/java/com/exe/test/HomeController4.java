@@ -10,7 +10,7 @@ public class HomeController4 {
 	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public String test() {
 		
-		return "test";
+		return "test2";
 		
 	}	
 }
